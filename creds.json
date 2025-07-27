@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "akhil-tracker",
+  "private_key_id": "7630035e20aa0824c19f3e798dea4065fa953ae8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzGSHUnFG1r+QG\n+opWsrU3FOHPJc1c56tCat8ugnpcbmRmyHb5JL4njTCCvr3DbzJ1+GRKFtOMgQ09\nQ8/V+eEsHZUV9X+NCb1IGtQiwyHdqW1aBO4qL3IefTaeN9G+teiulxXLUA837ozF\nImgH4jP/H17IyWrE5mcxFpjUaFlY6jx5ZnoFWOfseBEcbvRuoBc44uJdybmVRBct\nvsqBwwazFF48fto5IfyK7Hd9g9oJiLVmb3ADdpdppAcqReIe8ftcgKCBEX4MGDv/\nhBHtZvXEB22unP0Ch9vEkYKCNwrMs3t6lAyBoORFxhmVszQlQeX91XuAuDs1a32l\nDiFW7vxbAgMBAAECggEAAdeGU4twA7BVZgT5mz6nQnPChsDaxdPUHRDATtgkrgKs\noan6H0HTetCm6RFRHktsd24gieqGLnG9Ux35azfwquV6/QjTUP4CplUwTVM4a/Es\nILrgQCrQv6OGBkaIr69rPzBqlvax0V9wry5VZ49Z/YuzC9mWcYP1F7olxDl2gcWS\neHMQipC9pv00u6EjSe2ER0Ni4C2S1elykkiSvOwq2gFGHqN1RIjTd85sNKXo8V8G\nP6Op8Q9svllvtgbJGa1TW7M5P8d6hKcnYp7zT/PwlP4QS0XWQ23M3vq66YvgXMiS\nPJqCr7gZNWs375d5XaZlAw83k7yGkpp2tRKUEwjoQQKBgQD6NGNmMpeZQL9NzGh1\nf2taVhi6e9lx8583JskBRrqdL0rEIb616O7l4cCfpf8nO5vtrMbvASZ/Jw0nj8hh\nnCslS1RuSuD/ZSAXk+DBNy8LUhkK18u0dfptDigLbQpel+O1fZhSQPp2hGrq8xZC\nt32c0QPlWqTgcpgFiMYQ7iWHawKBgQC3PxyHbf7BesdNQB83H4RsEUFd+5iJJ/5U\nWtiIF77QAFJKYAnc6No1kOd4esxCpm+VVi2ZzWDhpstEFJqzOzVZ2wRViLbWuJDQ\n8fepPz0Ht5K9fSE44BbQaRRtGjFD4mpabqVl2EfhZ45SylaxMRYTcp5y18sSKoDu\nCArbYZPK0QKBgBt94CIdkvy62YpR2HR4oLIXXbY334eezjLAJzvlqqGUzbFJR+wz\nAPTvXjvsgGGuMg7meiFOzg0QnGhpawoWn8MESO2pepl1YhZVIE/6oUesKKZBWdel\nUvPip1HCFG6aX+HUQAVhsGOPXzQbq6l/AeVWLghock9bKAsLoT/A+wyrAoGAaDtv\n4OECTc+m2hwlJVe6HTZbdjgMdcfX9OePzymikfH83O1v7sZMiLeZ0oAW+7psMgfI\n/HlEKFaVvG3z6Qs+t5PLDVQsnEpzpUZdV1nvPxp+T2aDpTRiBb4frkd9yl1ZnYLe\ndeXmTSJ4ZENPuI5xPjKuSijRC849dCgC9PK1/GECgYEA48ufqojUB9OrP3DAA9WR\nMJhq43nogVEr8zC+5xYU93ipeED0toxaADSntIKHJpYzeVWzznCT/T5ha3jkNhR1\neMg7NG1nkSm9Bnn/KMc7YpTnlGOJSVLM3zI3g/k2E+TSSEMUIuES31feyULRcIlH\nn9nOpKNG54hEXZvW7o4dPpg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "akhilsheetsbot@akhil-tracker.iam.gserviceaccount.com",
+  "client_id": "106893157921335072993",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/akhilsheetsbot%40akhil-tracker.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
