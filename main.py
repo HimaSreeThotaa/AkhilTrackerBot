@@ -6,7 +6,7 @@ from config import BOT_TOKEN
 from sheet_utils import log_task, get_daily_summary, get_weekly_summary, get_all_user_ids
 from roasts import get_roast_for_task, get_roast_for_summary
 
-# --- Command Handlers ---
+#Command Handlers
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
@@ -67,7 +67,7 @@ async def weekly(update: Update, context: ContextTypes.DEFAULT_TYPE):
     msg += f"🔥 *Current Streak:* {streak} day(s) with at least 1 task done!"
     await update.message.reply_text(msg, parse_mode='Markdown')
 
-# --- Daily Summary Scheduler ---
+#Daily Summary Scheduler
 
 async def send_daily_summary(app):
     for user_id in get_all_user_ids():
@@ -91,7 +91,7 @@ async def schedule_daily_summary(app):
         await asyncio.sleep(wait_seconds)
         await send_daily_summary(app)
 
-# --- Main Function ---
+#Main Function
 
 async def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()

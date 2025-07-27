@@ -5,7 +5,7 @@ from collections import defaultdict
 
 GOOGLE_SHEET_NAME = "AkhilTaskLog"
 
-# ✅ Setup & Authentication
+#Setup & Authentication
 def connect_sheet():
     try:
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -25,7 +25,7 @@ def connect_sheet():
         print(f"❌ Failed to connect to Google Sheets: {e}")
         raise
 
-# ✅ Log a new task entry
+#Log a new task entry
 def log_task(user_id, status, task):
     sheet = connect_sheet()
     now = datetime.now()
@@ -35,7 +35,7 @@ def log_task(user_id, status, task):
     sheet.append_row(row)
     print(f"📥 Logged: {row}")
 
-# ✅ Daily Summary per user
+#Daily Summary per user
 def get_daily_summary(user_id):
     sheet = connect_sheet()
     today = datetime.now().strftime("%Y-%m-%d")
@@ -66,7 +66,7 @@ def get_daily_summary(user_id):
 
     return summary
 
-# ✅ Weekly Summary + Streak
+#Weekly Summary + Streak
 def get_weekly_summary(user_id):
     sheet = connect_sheet()
     records = sheet.get_all_records()
@@ -95,7 +95,7 @@ def get_weekly_summary(user_id):
 
     return summary, streak
 
-# ✅ Multi-user support
+#Multi-user support
 def get_all_user_ids():
     sheet = connect_sheet()
     values = sheet.get_all_values()
